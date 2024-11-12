@@ -17,7 +17,7 @@ def lorenz(t, state):
     return [dx_dt, dy_dt, dz_dt]
 
 # Initial conditions and time span
-initial_state = [1.0, 1.0, 1.0]
+initial_state = [100.0, 100.0, 100.0]
 t_span = (0, 50)  # Start and end times
 t_eval = np.linspace(t_span[0], t_span[1], 10000)  # Time points to evaluate
 
